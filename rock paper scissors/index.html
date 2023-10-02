@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="menu" id="cl">
+        <h2>Rock Paper Scissors</h2>
+        <button class="a" id="a" onclick="btn()">Play</button>
+    </div>
+
+    <div class="game" id="game">
+        <div>
+            <h2>Choose Your Move</h2>
+            <p></p>
+        </div>
+
+
+        <div class="choices">
+            <button onclick="rock()"><img src="./img//94-942198__0-19-rock-paper-scissors-png-removebg-preview.png" height="40" width="40"
+                    alt=""></button>
+            <button onclick="paper()"><img src="./img/490-4906131_rock-paper-scissors-clipart-rock-paper-scissors-png-removebg-preview.png"
+                    height="40" width="40" alt=""></button>
+            <button onclick="scissors()"><img src="./img/535-5357819_rock-paper-scissors-png-transparent-png-removebg-preview.png" height="40"
+                    width="40" alt=""></button>
+        </div>
+
+
+
+
+
+
+        <div class="container">
+            <div>
+                <h3>Player</h3>
+            </div>
+            <div>
+                <h3>Computer</h3>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="playerChoice"></div>
+            <div class="compChoice"></div>
+        </div>
+
+        <div class="singleResult"></div>
+
+        <p class="message1"></p>
+        <p class="message2"></p>
+        <div class="winner"></div>
+        <button class="k" id="k" onclick="bt()">Play Again</button>
+    </div>
+
+
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
